@@ -1,5 +1,13 @@
 # Flipper-Zero-WIFI-Hat
-Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a custom PCB
+Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a custom PCB.
+
+Features:
+USB-C for flashing the ESP-32-S3-WROOM-1 module
+ISTP port for antennas
+Bluetooth Low Energy compatibiltiy
+WIFI 2.4ghz compatability
+Fully designed for Flipper Zero pins
+Is compatible with Flipper Zero wifi marauder
 
 Here are some pictures of the design:
 
