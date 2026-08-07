@@ -85,7 +85,7 @@ Prices are based on the supplied supplier quotes.
 
 **3819.14 NOK**
 
-**≈ $397 USD**
+**≈ $397 USD** *Approx 400 usd just to be safe*
 
 ---
 
