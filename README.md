@@ -3,38 +3,53 @@ Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a cu
 
 # Bill of Materials (BOM)
 
-## Electronics
+This BOM contains all components required for the build, including electronics, PCB fabrication, shipping estimates, and the Flipper Zero used for development/testing.
+
+All prices are based on the supplied supplier quotes.
+
+---
+
+# Electronic Components
 
 | Qty | Manufacturer | Part Number | Description | Unit Price (NOK) | Total (NOK) | Link |
 |---:|---|---|---|---:|---:|---|
-| 2 | Kamaya | RMC1/10K5101DTP | Thick Film Resistor SMD 0805, 5.10 kΩ, 0.5% | 1.82 | 3.64 | https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP |
-| 10 | Bourns | CR2512AJW-103ELF | Thick Film Resistor SMD 2512, 10 kΩ, 5%, 1 W | 1.08 | 10.80 | https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF |
-| 1 | Same Sky | UJ20-C-H-G-MSMT-4B-P16-TR | USB Type-C Connector, USB 2.0, 16 pin, SMT | 4.51 | 4.51 | https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR |
-| 2 | Same Sky | TS04-66-65-BK-260-SMT | Tactile Switch 6×6 mm, 6.5 mm actuator, 260 gf | 1.73 | 3.46 | https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT |
-| 5 | Murata | GRM155D70G106ME18D | MLCC 0402, 10 µF, 4 V, X7T, ±20% | 3.94 | 19.70 | https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D |
-| 1 | Microchip | MCP1827S-3302E/EBVAO | 3.3 V 1.5 A LDO Voltage Regulator | 17.74 | 17.74 | https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO |
+| 2 | Kamaya | RMC1/10K5101DTP | Thick Film Resistors - SMD 0805, 5.10 kΩ, 0.5%, Lead Free | 1.82 | 3.64 | https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP |
+| 10 | Bourns | CR2512AJW-103ELF | Thick Film Resistors - SMD 2512, 10 kΩ, 5%, 1 W | 1.08 | 10.80 | https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF |
+| 1 | Same Sky | UJ20-C-H-G-MSMT-4B-P16-TR | USB Connector, Type-C 2.0, Horizontal SMT, 16 Pin | 4.51 | 4.51 | https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR |
+| 2 | Same Sky | TS04-66-65-BK-260-SMT | Tactile Switch, 6 × 6 mm, 6.5 mm Actuator, 260 gf | 1.73 | 3.46 | https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT |
+| 5 | Murata | GRM155D70G106ME18D | MLCC SMD 0402, 10 µF, 4 V, X7T, ±20% | 3.94 | 19.70 | https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D |
+| 1 | Microchip | MCP1827S-3302E/EBVAO | LDO Voltage Regulator, 3.3 V, 1.5 A | 17.74 | 17.74 | https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO |
 | 1 | onsemi | 2N7002WT1G | Small Signal N-Channel MOSFET | 1.92 | 1.92 | https://no.mouser.com/en/ProductDetail/onsemi/2N7002WT1G |
-| 1 | Same Sky | CPT-1775-3TH | 3 V Board Mount Buzzer, 75 dB | 10.85 | 10.85 | https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH |
-| 1 | Espressif | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module, 16 MB Flash, 8 MB PSRAM, PCB antenna | 64.73 | 64.73 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8 |
-| 1 | Espressif | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module, 8 MB Flash, IPEX antenna connector | 54.35 | 54.35 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8 |
+| 1 | Same Sky | CPT-1775-3TH | Board Mount Buzzer, 3 V, 75 dB, Through Hole | 10.85 | 10.85 | https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH |
+| 1 | Espressif | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module, 16 MB Flash, 8 MB PSRAM, PCB Antenna | 64.73 | 64.73 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8 |
+| 1 | Espressif | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module, 8 MB Flash, IPEX Antenna Connector | 54.35 | 54.35 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8 |
 | 1 | Taoglas | GW17.07.0250E | IPEX Terminal Antenna | 80.13 | 80.13 | https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E |
 | 1 | Würth Elektronik | 693072010801 | MicroSD Card Connector, 8 Pin Hinge | 32.70 | 32.70 | https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801 |
 
-## Assembly Materials
+---
 
-| Qty | Item | Price (NOK) | Total (NOK) | Link |
-|---:|---|---:|---:|---|
-| 1 | Chip Quik TS391AX50 No-Clean Solder Paste Sn63/Pb37 T4 50g | 133.92 | 133.92 | https://no.mouser.com/en/ProductDetail/Chip-Quik/TS391AX50 |
-| 1 | ALIENTEK HP20 Hot Plate Preheater 200 W | 550.00 | 550.00 | AliExpress |
-| 1 | PCB + SMT Stencil + Shipping | 400.00 | 400.00 | JLCPCB |
+# PCB Manufacturing
 
-## Shipping / Additional Items
+| Qty | Item | Cost (NOK) | Link |
+|---:|---|---:|---|
+| 1 | PCB + SMT stencil including shipping | 400.00 | JLCPCB |
+
+---
+
+# Additional Items
+
+| Qty | Item | Cost (NOK) | Link |
+|---:|---|---:|---|
+| 1 | Flipper Zero | 2656.00 | Joom |
+
+---
+
+# Shipping
 
 | Item | Cost (NOK) |
 |---|---:|
 | Mouser shipping and tax estimate | 459.61 |
 | AliExpress shipping estimate | 31.42 |
-| Flipper Zero (Joom) | 2656.00 |
 
 ---
 
@@ -42,24 +57,30 @@ Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a cu
 
 | Category | NOK | USD Approx. |
 |---|---:|---:|
-| Electronic components | 303.53 | $28.84 |
-| Solder paste | 133.92 | $12.72 |
-| PCB + stencil | 400.00 | $38.00 |
-| Hot plate | 550.00 | $52.25 |
-| Mouser shipping/tax | 459.61 | $43.66 |
-| AliExpress shipping | 31.42 | $2.99 |
-| Flipper Zero | 2656.00 | $252.32 |
-
-## Total Project Cost
-
-### Without Flipper Zero
-**2308.48 NOK ≈ $219.31 USD**
-
-### Complete Build Including Flipper Zero
-**4964.48 NOK ≈ $471.63 USD**
+| Electronic components | 303.53 | $31.57 |
+| PCB + stencil | 400.00 | $41.60 |
+| Mouser shipping/tax | 459.61 | $47.80 |
+| AliExpress shipping | 31.42 | $3.27 |
+| Flipper Zero | 2656.00 | $276.22 |
 
 ---
 
+# Total Project Cost
+
+## Complete Build
+
+**3850.56 NOK**
+
+**≈ $400 USD**
+
+---
+
+## Notes
+
+- ESP32-S3-WROOM-1-N16R8 and ESP32-S3-WROOM-1U-N8 are both included from the original order list.
+- The Taoglas GW17.07.0250E antenna is used with the ESP32-S3-WROOM-1U-N8 module.
+- Assembly tools and solder paste have been removed from this BOM.
+- Prices are based on the supplied quotes and may change with exchange rates and supplier pricing.
 ## Notes
 
 - The BOM includes both ESP32-S3-WROOM variants as listed in the order:
