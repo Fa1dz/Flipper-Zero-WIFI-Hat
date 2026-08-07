@@ -3,38 +3,38 @@ Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a cu
 
 ## Bill of Materials (BOM)
 
-| Qty | Part Number | Description | Unit Price | Total | Supplier |
+| Qty | Part Number | Description | Unit Price (USD) | Total (USD) | Supplier |
 |---:|---|---|---:|---:|---|
-| 2 | RMC1/10K5101DTP | 0805 5.1 kΩ 0.5% Thick Film Resistor | kr 1.82 | kr 3.64 | [Mouser](https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP?qs=GedFDFLaBXG1LvR8QK0EcA%3D%3D) |
-| 10 | CR2512AJW-103ELF | 2512 10 kΩ 1 W Thick Film Resistor | kr 1.08 | kr 10.80 | [Mouser](https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF?qs=GedFDFLaBXEqggePGBQmuQ%3D%3D) |
-| 1 | UJ20-C-H-G-MSMT-4B-P16-TR | USB Type-C 2.0 Connector (16-pin) | kr 4.51 | kr 4.51 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR?qs=6avfeC6zeS47Lo0obtd7QQ%3D%3D) |
-| 2 | TS04-66-65-BK-260-SMT | 6×6 mm SMT Tactile Switch | kr 1.73 | kr 3.46 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT?qs=A6eO%252BMLsxmTvOTHTIBabhQ%3D%3D) |
-| 5 | GRM155D70G106ME18D | 10 µF 0402 X7T MLCC Capacitor | kr 3.94 | kr 19.70 | [Mouser](https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D?qs=doiCPypUmgEf2sthzNH4lA%3D%3D) |
-| 1 | MCP1827S-3302E/EBVAO | 3.3 V 1.5 A LDO Regulator | kr 17.74 | kr 17.74 | [Mouser](https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO?qs=W%2FMpXkg%252BdQ5AjGztZ%252B4L5g%3D%3D) |
-| 1 | 2N7002WT1G | N-Channel MOSFET | kr 1.92 | kr 1.92 | [Mouser](https://no.mouser.com/en/ProductDetail/onsemi/2N7002WT1G?qs=Jh7l0IbPjidRgzyVQt6Xnw%3D%3D) |
-| 1 | CPT-1775-3TH | 3 V Through-Hole Buzzer | kr 10.85 | kr 10.85 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH?qs=yc9RBI4tIAK9HFcgM%252BStOQ%3D%3D) |
-| 1 | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module (16 MB Flash, 8 MB PSRAM) | kr 64.73 | kr 64.73 | [Mouser](https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8?qs=Li%252BoUPsLEnvQc9gW6AMhZg%3D%3D) |
-| 1 | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module (8 MB Flash, U.FL) | kr 54.35 | kr 54.35 | [Mouser](https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8?qs=Li%252BoUPsLEntthfxdhgRI1w%3D%3D) |
-| 1 | GW17.07.0250E | 2.4 GHz IPEX Antenna | kr 80.13 | kr 80.13 | [Mouser](https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E?qs=AL7xPqYNrmTPXhCuHzQycg%3D%3D) |
-| 1 | 693072010801 | MicroSD Card Connector | kr 32.70 | kr 32.70 | [Mouser](https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801?qs=7gQLVZk5cPmw4uU1mAcUFg%3D%3D) |
-| 1 | TS391AX50 | Sn63/Pb37 No-Clean Solder Paste (50 g) | kr 133.92 | kr 133.92 | [Mouser](https://no.mouser.com/en/ProductDetail/Chip-Quik/TS391AX50?qs=1mbolxNpo8c66lK8U%252Bbg8g%3D%3D) |
-| 1 | HP20 | ALIENTEK HP20 Mini Hot Plate (200 W) | kr 1099.74 | kr 1099.74 | AliExpress |
-| 1 | — | PCB + SMT Stencil (incl. shipping) | kr 400.00 | kr 400.00 | JLCPCB |
+| 2 | RMC1/10K5101DTP | 0805 5.1 kΩ 0.5% Thick Film Resistor | $0.19 | $0.38 | [Mouser](https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP?qs=GedFDFLaBXG1LvR8QK0EcA%3D%3D) |
+| 10 | CR2512AJW-103ELF | 2512 10 kΩ 1 W Thick Film Resistor | $0.11 | $1.12 | [Mouser](https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF?qs=GedFDFLaBXEqggePGBQmuQ%3D%3D) |
+| 1 | UJ20-C-H-G-MSMT-4B-P16-TR | USB Type-C 2.0 Connector (16-pin) | $0.47 | $0.47 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR?qs=6avfeC6zeS47Lo0obtd7QQ%3D%3D) |
+| 2 | TS04-66-65-BK-260-SMT | 6×6 mm SMT Tactile Switch | $0.18 | $0.36 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT?qs=A6eO%252BMLsxmTvOTHTIBabhQ%3D%3D) |
+| 5 | GRM155D70G106ME18D | 10 µF 0402 X7T MLCC Capacitor | $0.41 | $2.04 | [Mouser](https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D?qs=doiCPypUmgEf2sthzNH4lA%3D%3D) |
+| 1 | MCP1827S-3302E/EBVAO | 3.3 V 1.5 A LDO Regulator | $1.84 | $1.84 | [Mouser](https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO?qs=W%2FMpXkg%252BdQ5AjGztZ%252B4L5g%3D%3D) |
+| 1 | 2N7002WT1G | N-Channel MOSFET | $0.20 | $0.20 | [Mouser](https://no.mouser.com/en/ProductDetail/onsemi/2N7002WT1G?qs=Jh7l0IbPjidRgzyVQt6Xnw%3D%3D) |
+| 1 | CPT-1775-3TH | 3 V Through-Hole Buzzer | $1.13 | $1.13 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH?qs=yc9RBI4tIAK9HFcgM%252BStOQ%3D%3D) |
+| 1 | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module (16 MB Flash, 8 MB PSRAM) | $6.71 | $6.71 | [Mouser](https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8?qs=Li%252BoUPsLEnvQc9gW6AMhZg%3D%3D) |
+| 1 | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module (8 MB Flash, U.FL) | $5.64 | $5.64 | [Mouser](https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8?qs=Li%252BoUPsLEntthfxdhgRI1w%3D%3D) |
+| 1 | GW17.07.0250E | 2.4 GHz IPEX Antenna | $8.31 | $8.31 | [Mouser](https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E?qs=AL7xPqYNrmTPXhCuHzQycg%3D%3D) |
+| 1 | 693072010801 | MicroSD Card Connector | $3.39 | $3.39 | [Mouser](https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801?qs=7gQLVZk5cPmw4uU1mAcUFg%3D%3D) |
+| 1 | TS391AX50 | Sn63/Pb37 No-Clean Solder Paste (50 g) | $13.89 | $13.89 | [Mouser](https://no.mouser.com/en/ProductDetail/Chip-Quik/TS391AX50?qs=1mbolxNpo8c66lK8U%252Bbg8g%3D%3D) |
+| 1 | HP20 | ALIENTEK HP20 Mini Hot Plate (200 W) | $114.03 | $114.03 | AliExpress |
+| 1 | — | PCB + SMT Stencil (incl. shipping) | $41.49 | $41.49 | JLCPCB |
 
 ### Additional Costs
 
-| Item | Cost |
+| Item | Cost (USD) |
 |---|---:|
-| Mouser shipping & taxes | kr 459.61 |
-| AliExpress shipping | kr 31.42 |
+| Mouser shipping & taxes | $47.68 |
+| AliExpress shipping | $3.26 |
 
 ### Estimated Total
 
-| Category | Cost |
+| Category | Cost (USD) |
 |---|---:|
-| Components & tools | **kr 1,937.19** |
-| Shipping & taxes | **kr 491.03** |
-| **Grand Total** | **kr 2,428.22** |
+| Components & tools | **$200.95** |
+| Shipping & taxes | **$50.94** |
+| **Grand Total** | **$251.89** |
 
 Features:
 USB-C for flashing the ESP-32-S3-WROOM-1 module
