@@ -1,40 +1,73 @@
 # Flipper-Zero-WIFI-Hat
 Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a custom PCB. The device was designed in KiCad.
 
-## Bill of Materials (BOM)
+# Bill of Materials (BOM)
 
-| Qty | Part Number | Description | Unit Price (USD) | Total (USD) | Supplier |
-|---:|---|---|---:|---:|---|
-| 2 | RMC1/10K5101DTP | 0805 5.1 kΩ 0.5% Thick Film Resistor | $0.19 | $0.38 | [Mouser](https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP?qs=GedFDFLaBXG1LvR8QK0EcA%3D%3D) |
-| 10 | CR2512AJW-103ELF | 2512 10 kΩ 1 W Thick Film Resistor | $0.11 | $1.12 | [Mouser](https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF?qs=GedFDFLaBXEqggePGBQmuQ%3D%3D) |
-| 1 | UJ20-C-H-G-MSMT-4B-P16-TR | USB Type-C 2.0 Connector (16-pin) | $0.47 | $0.47 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR?qs=6avfeC6zeS47Lo0obtd7QQ%3D%3D) |
-| 2 | TS04-66-65-BK-260-SMT | 6×6 mm SMT Tactile Switch | $0.18 | $0.36 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT?qs=A6eO%252BMLsxmTvOTHTIBabhQ%3D%3D) |
-| 5 | GRM155D70G106ME18D | 10 µF 0402 X7T MLCC Capacitor | $0.41 | $2.04 | [Mouser](https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D?qs=doiCPypUmgEf2sthzNH4lA%3D%3D) |
-| 1 | MCP1827S-3302E/EBVAO | 3.3 V 1.5 A LDO Regulator | $1.84 | $1.84 | [Mouser](https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO?qs=W%2FMpXkg%252BdQ5AjGztZ%252B4L5g%3D%3D) |
-| 1 | 2N7002WT1G | N-Channel MOSFET | $0.20 | $0.20 | [Mouser](https://no.mouser.com/en/ProductDetail/onsemi/2N7002WT1G?qs=Jh7l0IbPjidRgzyVQt6Xnw%3D%3D) |
-| 1 | CPT-1775-3TH | 3 V Through-Hole Buzzer | $1.13 | $1.13 | [Mouser](https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH?qs=yc9RBI4tIAK9HFcgM%252BStOQ%3D%3D) |
-| 1 | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module (16 MB Flash, 8 MB PSRAM) | $6.71 | $6.71 | [Mouser](https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8?qs=Li%252BoUPsLEnvQc9gW6AMhZg%3D%3D) |
-| 1 | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module (8 MB Flash, U.FL) | $5.64 | $5.64 | [Mouser](https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8?qs=Li%252BoUPsLEntthfxdhgRI1w%3D%3D) |
-| 1 | GW17.07.0250E | 2.4 GHz IPEX Antenna | $8.31 | $8.31 | [Mouser](https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E?qs=AL7xPqYNrmTPXhCuHzQycg%3D%3D) |
-| 1 | 693072010801 | MicroSD Card Connector | $3.39 | $3.39 | [Mouser](https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801?qs=7gQLVZk5cPmw4uU1mAcUFg%3D%3D) |
-| 1 | TS391AX50 | Sn63/Pb37 No-Clean Solder Paste (50 g) | $13.89 | $13.89 | [Mouser](https://no.mouser.com/en/ProductDetail/Chip-Quik/TS391AX50?qs=1mbolxNpo8c66lK8U%252Bbg8g%3D%3D) |
-| 1 | HP20 | ALIENTEK HP20 Mini Hot Plate (200 W) | $114.03 | $114.03 | AliExpress |
-| 1 | — | PCB + SMT Stencil (incl. shipping) | $41.49 | $41.49 | JLCPCB |
+## Electronics
 
-### Additional Costs
+| Qty | Manufacturer | Part Number | Description | Unit Price (NOK) | Total (NOK) | Link |
+|---:|---|---|---|---:|---:|---|
+| 2 | Kamaya | RMC1/10K5101DTP | Thick Film Resistor SMD 0805, 5.10 kΩ, 0.5% | 1.82 | 3.64 | https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP |
+| 10 | Bourns | CR2512AJW-103ELF | Thick Film Resistor SMD 2512, 10 kΩ, 5%, 1 W | 1.08 | 10.80 | https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF |
+| 1 | Same Sky | UJ20-C-H-G-MSMT-4B-P16-TR | USB Type-C Connector, USB 2.0, 16 pin, SMT | 4.51 | 4.51 | https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR |
+| 2 | Same Sky | TS04-66-65-BK-260-SMT | Tactile Switch 6×6 mm, 6.5 mm actuator, 260 gf | 1.73 | 3.46 | https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT |
+| 5 | Murata | GRM155D70G106ME18D | MLCC 0402, 10 µF, 4 V, X7T, ±20% | 3.94 | 19.70 | https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D |
+| 1 | Microchip | MCP1827S-3302E/EBVAO | 3.3 V 1.5 A LDO Voltage Regulator | 17.74 | 17.74 | https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO |
+| 1 | onsemi | 2N7002WT1G | Small Signal N-Channel MOSFET | 1.92 | 1.92 | https://no.mouser.com/en/ProductDetail/onsemi/2N7002WT1G |
+| 1 | Same Sky | CPT-1775-3TH | 3 V Board Mount Buzzer, 75 dB | 10.85 | 10.85 | https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH |
+| 1 | Espressif | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module, 16 MB Flash, 8 MB PSRAM, PCB antenna | 64.73 | 64.73 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8 |
+| 1 | Espressif | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module, 8 MB Flash, IPEX antenna connector | 54.35 | 54.35 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8 |
+| 1 | Taoglas | GW17.07.0250E | IPEX Terminal Antenna | 80.13 | 80.13 | https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E |
+| 1 | Würth Elektronik | 693072010801 | MicroSD Card Connector, 8 Pin Hinge | 32.70 | 32.70 | https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801 |
 
-| Item | Cost (USD) |
+## Assembly Materials
+
+| Qty | Item | Price (NOK) | Total (NOK) | Link |
+|---:|---|---:|---:|---|
+| 1 | Chip Quik TS391AX50 No-Clean Solder Paste Sn63/Pb37 T4 50g | 133.92 | 133.92 | https://no.mouser.com/en/ProductDetail/Chip-Quik/TS391AX50 |
+| 1 | ALIENTEK HP20 Hot Plate Preheater 200 W | 550.00 | 550.00 | AliExpress |
+| 1 | PCB + SMT Stencil + Shipping | 400.00 | 400.00 | JLCPCB |
+
+## Shipping / Additional Items
+
+| Item | Cost (NOK) |
 |---|---:|
-| Mouser shipping & taxes | $47.68 |
-| AliExpress shipping | $3.26 |
+| Mouser shipping and tax estimate | 459.61 |
+| AliExpress shipping estimate | 31.42 |
+| Flipper Zero (Joom) | 2656.00 |
 
-### Estimated Total
+---
 
-| Category | Cost (USD) |
-|---|---:|
-| Components & tools | **$200.95** |
-| Shipping & taxes | **$50.94** |
-| **Grand Total** | **$251.89** | 
+# Cost Summary
+
+| Category | NOK | USD Approx. |
+|---|---:|---:|
+| Electronic components | 303.53 | $28.84 |
+| Solder paste | 133.92 | $12.72 |
+| PCB + stencil | 400.00 | $38.00 |
+| Hot plate | 550.00 | $52.25 |
+| Mouser shipping/tax | 459.61 | $43.66 |
+| AliExpress shipping | 31.42 | $2.99 |
+| Flipper Zero | 2656.00 | $252.32 |
+
+## Total Project Cost
+
+### Without Flipper Zero
+**2308.48 NOK ≈ $219.31 USD**
+
+### Complete Build Including Flipper Zero
+**4964.48 NOK ≈ $471.63 USD**
+
+---
+
+## Notes
+
+- The BOM includes both ESP32-S3-WROOM variants as listed in the order:
+  - ESP32-S3-WROOM-1-N16R8 (PCB antenna)
+  - ESP32-S3-WROOM-1U-N8 (IPEX antenna)
+- The Taoglas GW17.07.0250E antenna is required for the WROOM-1U module.
+- Prices are based on the supplied Mouser/JLCPCB/AliExpress/Joom estimates.
+- USD conversions are approximate and will vary with exchange rates.
 
 *Approx 255 dollars to be safe*
 
