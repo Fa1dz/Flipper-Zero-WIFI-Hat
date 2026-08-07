@@ -5,7 +5,7 @@ Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a cu
 
 This BOM contains all components required for the build, including electronics, PCB fabrication, shipping estimates, and the Flipper Zero used for development/testing.
 
-All prices are based on the supplied supplier quotes.
+Prices are based on the supplied supplier quotes.
 
 ---
 
@@ -26,6 +26,10 @@ All prices are based on the supplied supplier quotes.
 | 1 | Taoglas | GW17.07.0250E | IPEX Terminal Antenna | 80.13 | 80.13 | https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E |
 | 1 | Würth Elektronik | 693072010801 | MicroSD Card Connector, 8 Pin Hinge | 32.70 | 32.70 | https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801 |
 
+### Electronics Subtotal
+
+**303.53 NOK (~$31.57 USD)**
+
 ---
 
 # PCB Manufacturing
@@ -34,13 +38,21 @@ All prices are based on the supplied supplier quotes.
 |---:|---|---:|---|
 | 1 | PCB + SMT stencil including shipping | 400.00 | JLCPCB |
 
+### PCB Subtotal
+
+**400.00 NOK (~$41.60 USD)**
+
 ---
 
-# Additional Items
+# Additional Hardware
 
 | Qty | Item | Cost (NOK) | Link |
 |---:|---|---:|---|
 | 1 | Flipper Zero | 2656.00 | Joom |
+
+### Hardware Subtotal
+
+**2656.00 NOK (~$276.22 USD)**
 
 ---
 
@@ -49,18 +61,20 @@ All prices are based on the supplied supplier quotes.
 | Item | Cost (NOK) |
 |---|---:|
 | Mouser shipping and tax estimate | 459.61 |
-| AliExpress shipping estimate | 31.42 |
+
+### Shipping Subtotal
+
+**459.61 NOK (~$47.80 USD)**
 
 ---
 
-# Cost Summary
+# Final Cost Summary
 
 | Category | NOK | USD Approx. |
 |---|---:|---:|
 | Electronic components | 303.53 | $31.57 |
 | PCB + stencil | 400.00 | $41.60 |
 | Mouser shipping/tax | 459.61 | $47.80 |
-| AliExpress shipping | 31.42 | $3.27 |
 | Flipper Zero | 2656.00 | $276.22 |
 
 ---
@@ -69,11 +83,21 @@ All prices are based on the supplied supplier quotes.
 
 ## Complete Build
 
-**3850.56 NOK**
+**3819.14 NOK**
 
-**≈ $400 USD**
+**≈ $397 USD**
 
 ---
+
+# Notes
+
+- The BOM includes both ESP32-S3-WROOM modules from the original order:
+  - ESP32-S3-WROOM-1-N16R8 (PCB antenna)
+  - ESP32-S3-WROOM-1U-N8 (IPEX antenna connector)
+- The Taoglas GW17.07.0250E antenna is required for the WROOM-1U module.
+- Solder paste and hot plate equipment have been removed from the BOM.
+- AliExpress shipping estimate has been removed.
+- Prices are based on the supplied order data and may change with exchange rates.
 
 ## Notes
 
