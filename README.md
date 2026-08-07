@@ -34,7 +34,7 @@ Designing a wifi hat for the flipper zero from scratch using the ESP-32 and a cu
 |---|---:|
 | Components & tools | **$200.95** |
 | Shipping & taxes | **$50.94** |
-| **Grand Total** | **$251.89** | *Approx 255 to be safe*
+| **Grand Total** | **$251.89** | *Approx 255 to be safe
 
 Features:
 USB-C for flashing the ESP-32-S3-WROOM-1 module
