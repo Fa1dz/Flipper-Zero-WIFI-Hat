@@ -12,8 +12,13 @@ Store No,Mfr. No,Description ,Order Qty.,Price (NOK),Ext.: (NOK),link
 356-ESP32S3WROOM1UN8,ESP32-S3-WROOM-1U-N8,"Multiprotocol Modules SMD module, ESP32-S3, 8 MB SPI flash, IPEX antenna connector",1,"kr 54,35",54.35,https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8?qs=Li%252BoUPsLEntthfxdhgRI1w%3D%3D
 960-GW.17.07.0250E,GW17.07.0250E,Antennas IPEX TERMINAL ANTENNA,1,"kr 80,13",80.13,https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E?qs=AL7xPqYNrmTPXhCuHzQycg%3D%3D
 710-693072010801,693072010801,Memory Card Connectors WR-CRD SD Micro Card 8Pin Hinge,1,"kr 32,70",32.7,https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801?qs=7gQLVZk5cPmw4uU1mAcUFg%3D%3D
-910-TS391AX50,TS391AX50,Solder Paste No-Clean 50g Sn63/Pb37 T4,1,"kr 133,92",133.92,https://no.mouser.com/en/ProductDetail/Chip-Quik/TS391AX50?qs=1mbolxNpo8c66lK8U%252Bbg8g%3D%3D
-1102910628,---,ALIENTEK HP20 Hot Plate Preheater MINI Heating Plate Soldering Station PD3.1 Digital Constant Temperature 350° Heating Tool 200W,1,kr 1099.74,1099.74,ALIENTEK HP20 Hot Plate Preheater MINI Heating Plate Soldering Station PD3.1 Digital Constant Temperature 350° Heating Tool 200W - AliExpress
----,---,PCB and smd stencil including shipping,1,kr 400,400.00,JLCPCB Shopping Cart | Secure Checkout for Your Orders
-,,shipping estimate and tax Mouser,---,---,459.61,
-,,shipping estimate AliExpress,---,---,31.42,
+---,---,PCB including shipping,1,kr 400,400.00,JLCPCB Shopping Cart | Secure Checkout for Your Orders
+---,---,shipping estimate and tax Mouser,---,---,459.61,
+---,---,flipper zero,1,kr 2656,2656,Flipper Zero, https://www.joom.com/en/products/62f661838ed09b01ebd4e0e2?srsltid=AfmBOorv-Ov4GcIetX5NxZHzUskx90Y01DzcAK4XFdXdVsGUAsnDHA35&variant_id=62f661838ed09b43ebd4e0e4
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
