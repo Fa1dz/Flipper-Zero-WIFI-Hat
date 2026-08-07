@@ -11,22 +11,22 @@ Prices are based on the supplied supplier quotes.
 
 # Electronic Components
 
-| Qty | Manufacturer     | Part Number               | Description                                               | Unit Price (NOK) | Total (NOK) | Link |
-| --: | ---------------- | ------------------------- | --------------------------------------------------------- | ---------------: | ----------: | ---- |
-| 2 | Kamaya | RMC1/10K5101DTP | Thick Film Resistors - SMD 0805, 5.10 kΩ, 0.5%, Lead Free | 1.82 | 3.64 | https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP |
-| 10 | Bourns | CR2512AJW-103ELF | Thick Film Resistors - SMD 2512, 10 kΩ, 5%, 1 W | 1.08 | 10.80 | https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF |
-| 1 | Same Sky | UJ20-C-H-G-MSMT-4B-P16-TR | USB Connector, Type-C 2.0, Horizontal SMT, 16 Pin | 4.51 | 4.51 | https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR |
-| 2 | Same Sky | TS04-66-65-BK-260-SMT | Tactile Switch, 6 × 6 mm, 6.5 mm Actuator, 260 gf | 1.73 | 3.46 | https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT |
-| 5 | Murata | GRM155D70G106ME18D | MLCC SMD 0402, 10 µF, 4 V, X7T, ±20% | 3.94 | 19.70 | https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D |
-| 1 | Microchip | MCP1827S-3302E/EBVAO | LDO Voltage Regulator, 3.3 V, 1.5 A | 17.74 | 17.74 | https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO |
-| 1 | onsemi | 2N7002WT1G | Small Signal N-Channel MOSFET | 1.92 | 1.92 | https://no.mouser.com/en/ProductDetail/onsemi/2N7002WT1G |
-| 1 | Same Sky | CPT-1775-3TH | Board Mount Buzzer, 3 V, 75 dB, Through Hole | 10.85 | 10.85 | https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH |
-| 1 | Espressif | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module, 16 MB Flash, 8 MB PSRAM, PCB Antenna | 64.73 | 64.73 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8 |
-| 1 | Espressif | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module, 8 MB Flash, IPEX Antenna Connector | 54.35 | 54.35 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8 |
-| 1 | Taoglas | GW17.07.0250E | IPEX Terminal Antenna | 80.13 | 80.13 | https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E |
-| 1 | Würth Elektronik | 693072010801 | MicroSD Card Connector, 8 Pin Hinge | 32.70 | 32.70 | https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801 |
+| Qty | Manufacturer | Part Number | Description | Unit Price (NOK) | Total (NOK) | Link |
+| --: | ------------ | ----------- | ----------- | ---------------: | ----------: | ---- |
+| 2 | Kamaya | RMC1/10K5101DTP | Thick Film Resistors - SMD 0805, 5.10 kΩ, 0.5%, Lead Free | 1.82 | 3.64 | https://no.mouser.com/en/ProductDetail/Kamaya/RMC1-10K5101DTP?qs=GedFDFLaBXG1LvR8QK0EcA%3D%3D |
+| 10 | Bourns | CR2512AJW-103ELF | Thick Film Resistors - SMD 2512, 10 kΩ, 5%, 1 W | 1.08 | 10.80 | https://no.mouser.com/en/ProductDetail/Bourns/CR2512AJW-103ELF?qs=GedFDFLaBXEqggePGBQmuQ%3D%3D |
+| 1 | Same Sky | UJ20-C-H-G-MSMT-4B-P16-TR | USB Connector, Type-C 2.0, Horizontal SMT, 16 Pin | 4.51 | 4.51 | https://no.mouser.com/en/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4B-P16-TR?qs=6avfeC6zeS47Lo0obtd7QQ%3D%3D |
+| 2 | Same Sky | TS04-66-65-BK-260-SMT | Tactile Switch, 6 × 6 mm, 6.5 mm Actuator, 260 gf | 1.73 | 3.46 | https://no.mouser.com/en/ProductDetail/Same-Sky/TS04-66-65-BK-260-SMT?qs=A6eO%252BMLsxmTvOTHTIBabhQ%3D%3D |
+| 5 | Murata | GRM155D70G106ME18D | MLCC SMD 0402, 10 µF, 4 V, X7T, ±20% | 3.94 | 19.70 | https://no.mouser.com/en/ProductDetail/Murata/GRM155D70G106ME18D?qs=doiCPypUmgEf2sthzNH4lA%3D%3D |
+| 1 | Microchip | MCP1827S-3302E/EBVAO | LDO Voltage Regulator, 3.3 V, 1.5 A | 17.74 | 17.74 | https://no.mouser.com/en/ProductDetail/Microchip/MCP1827S-3302E-EBVAO?qs=W%2FMpXkg%252BdQ5AjGztZ%252B4L5g%3D%3D |
+| 1 | onsemi | 2N7002WT1G | Small Signal N-Channel MOSFET | 1.92 | 1.92 | https://no.mouser.com/en/ProductDetail/onsemi/2N7002WT1G?qs=Jh7l0IbPjidRgzyVQt6Xnw%3D%3D |
+| 1 | Same Sky | CPT-1775-3TH | Board Mount Buzzer, 3 V, 75 dB, Through Hole | 10.85 | 10.85 | https://no.mouser.com/en/ProductDetail/Same-Sky/CPT-1775-3TH?qs=yc9RBI4tIAK9HFcgM%252BStOQ%3D%3D |
+| 1 | Espressif | ESP32-S3-WROOM-1-N16R8 | ESP32-S3 Module, 16 MB Flash, 8 MB PSRAM, PCB Antenna | 64.73 | 64.73 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1-N16R8?qs=Li%252BoUPsLEnvQc9gW6AMhZg%3D%3D |
+| 1 | Espressif | ESP32-S3-WROOM-1U-N8 | ESP32-S3 Module, 8 MB Flash, IPEX Antenna Connector | 54.35 | 54.35 | https://no.mouser.com/en/ProductDetail/Espressif/ESP32-S3-WROOM-1U-N8?qs=Li%252BoUPsLEntthfxdhgRI1w%3D%3D |
+| 1 | Taoglas | GW17.07.0250E | IPEX Terminal Antenna | 80.13 | 80.13 | https://no.mouser.com/en/ProductDetail/Taoglas/GW17.07.0250E?qs=AL7xPqYNrmTPXhCuHzQycg%3D%3D |
+| 1 | Würth Elektronik | 693072010801 | MicroSD Card Connector, 8 Pin Hinge | 32.70 | 32.70 | https://no.mouser.com/en/ProductDetail/Wurth-Elektronik/693072010801?qs=7gQLVZk5cPmw4uU1mAcUFg%3D%3D |
 
-### Electronics Subtotal
+## Electronics Subtotal
 
 **303.53 NOK (~$31.57 USD)**
 
@@ -38,7 +38,7 @@ Prices are based on the supplied supplier quotes.
 | --: | ---- | ---------: | ---- |
 | 1 | PCB + SMT stencil including shipping | 250.00 | JLCPCB |
 
-### PCB Subtotal
+## PCB Subtotal
 
 **250.00 NOK (~$26 USD)**
 
@@ -48,9 +48,9 @@ Prices are based on the supplied supplier quotes.
 
 | Qty | Item | Cost (NOK) | Link |
 | --: | ---- | ---------: | ---- |
-| 1 | Flipper Zero | 2656.00 | Joom |
+| 1 | Flipper Zero | 2656.00 | https://www.joom.com/en/products/62f661838ed09b01ebd4e0e2 |
 
-### Hardware Subtotal
+## Hardware Subtotal
 
 **2656.00 NOK (~$276.22 USD)**
 
@@ -62,7 +62,7 @@ Prices are based on the supplied supplier quotes.
 | ---- | ---------: |
 | Mouser shipping and tax estimate | 459.61 |
 
-### Shipping Subtotal
+## Shipping Subtotal
 
 **459.61 NOK (~$47.80 USD)**
 
@@ -73,7 +73,7 @@ Prices are based on the supplied supplier quotes.
 | Category | NOK | USD Approx. |
 | -------- | --: | ----------: |
 | Electronic components | 303.53 | $31.57 |
-| PCB + stencil | 250.00 | $26.00 |
+| PCB + SMT stencil including shipping | 250.00 | $26.00 |
 | Mouser shipping/tax | 459.61 | $47.80 |
 | Flipper Zero | 2656.00 | $276.22 |
 
@@ -90,6 +90,22 @@ Prices are based on the supplied supplier quotes.
 Budget estimate: **~$400 USD**
 
 ---
+
+# Notes
+
+- The BOM includes both ESP32-S3-WROOM modules:
+  - ESP32-S3-WROOM-1-N16R8 (PCB antenna)
+  - ESP32-S3-WROOM-1U-N8 (IPEX antenna connector)
+
+- The Taoglas GW17.07.0250E antenna is required for the WROOM-1U module.
+
+- Solder paste and hot plate equipment have been removed from the BOM.
+
+- AliExpress items and shipping estimates have been removed.
+
+- PCB cost updated to include PCB + SMT stencil + shipping.
+
+- Prices are based on supplied order data and may change with exchange rates.
 
 # Notes
 
